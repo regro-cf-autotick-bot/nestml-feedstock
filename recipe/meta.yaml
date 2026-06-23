@@ -21,7 +21,7 @@ requirements:
     - python {{ python_min }}
     - pip
     - setuptools
-    - conda-build >=25.11.1,<26.0
+    - conda-build >=24.0
   run:
     - python
     - numpy
