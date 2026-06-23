@@ -12,7 +12,8 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
+  skip: true  # [py==312]
   entry_points:
     - nestml = pynestml.frontend.pynestml_frontend:main
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
@@ -22,7 +23,6 @@ requirements:
     - python {{ python_min }}
     - pip
     - setuptools
-    - conda-build >=25.0,<26.0
   run:
     - python >={{ python_min }}
     - numpy
