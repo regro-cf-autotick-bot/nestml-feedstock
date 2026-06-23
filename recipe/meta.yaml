@@ -24,15 +24,15 @@ requirements:
     - setuptools
   run:
     - python >={{ python_min }}
-    - numpy >=1.8.2
+    - numpy
     - scipy
-    - antlr4-python3-runtime ==4.13.2
-    - jinja2 >=2.10
+    - antlr4-python3-runtime
+    - jinja2
     - typing
     - setuptools
     - pip
     - astropy-base
-    - odetoolbox >=2.5.9
+    - odetoolbox
     - ipython
     - cxx-compiler
     - pyqt
