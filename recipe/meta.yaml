@@ -26,6 +26,7 @@ requirements:
     - python >={{ python_min }}
     - numpy
     - scipy
+    - antlr-python-runtime 
     - antlr4-python3-runtime
     - jinja2
     - typing
