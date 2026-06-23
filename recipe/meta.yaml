@@ -21,12 +21,11 @@ requirements:
     - python {{ python_min }}
     - pip
     - setuptools
-    - conda-build >=25.0,<26.0 
+    - conda-build >=25.11.1,<26.0
   run:
     - python
     - numpy
     - scipy
-    - antlr-python-runtime 
     - antlr4-python3-runtime
     - jinja2
     - typing
