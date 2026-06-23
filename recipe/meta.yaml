@@ -23,7 +23,7 @@ requirements:
     - pip
     - setuptools
   run:
-    - python >={{ python_min }}
+    - python
     - numpy
     - scipy
     - antlr-python-runtime 
