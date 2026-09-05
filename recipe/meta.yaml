@@ -1,5 +1,5 @@
 {% set name = "nestml" %}
-{% set version = "8.3.0" %}
+{% set version = "9.0.0" %}
 {% set python_min = "3.9" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/nest/nestml/archive/v{{ version }}.tar.gz
-  sha256: 7087a612c4ceadc22525b92be6148e9543f09d8d955f7996800361702d135db0
+  sha256: 24a661e5218b287518e9e649beea28ba377311b95ed543ea66c9b9ccf2dea848
 
 build:
   noarch: python
